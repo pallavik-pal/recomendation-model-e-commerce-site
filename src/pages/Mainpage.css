@@ -1,0 +1,75 @@
+/* MainPage.css */
+
+/* Top bar styles */
+.top-bar {
+  background-color: white; /* Green background */
+  padding: 10px 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 300px;
+}
+
+/* Left container: E-Commerce Site label */
+.left-container {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-right: 20px;
+}
+
+/* Center container: Search field */
+.center-container {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: center; /* Center search bar */
+}
+
+.search-field {
+  width: 100%; /* Full width */
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Right container: Logout button */
+.right-container {
+  margin-left: 20px;
+}
+
+.logout-button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Blue color for logout */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Search results container */
+.results-container {
+  padding: 20px;
+}
+
+/* Result list item styles */
+.results-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-container ul li {
+  padding: 8px;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+/* No results found message */
+.results-container p {
+  color: #999;
+  font-style: italic;
+}
